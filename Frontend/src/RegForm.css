@@ -1,0 +1,54 @@
+.reg-form-cont {
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.reg-form .title {
+    margin-top: 5px;
+    margin-bottom: 30px;
+    border: solid gray;
+    border-width: 0px 0px 1px 0px;
+    width: 100%;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+.reg-form {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    border: solid 2px gray;
+    border-radius: 10px;
+    font-size: 1.2rem;
+}
+
+.reg-form .input-cont {
+    display: flex;
+    width: 400px;
+    margin: 0 20px 20px 20px;
+}
+
+.reg-form .input-cont label {
+    margin-right: auto;
+}
+
+.reg-form .input-cont input {
+    border: solid 1px gray;
+    border-radius: 5px;
+    width: 200px;
+    padding: 0px 5px 0px 5px;
+}
+
+.reg-form .submit-button {
+    margin-top: 10px;
+    margin-bottom: 25px;
+    width: 100px;
+    height: 40px;
+    border-radius: 8px;
+    border-color: gray;
+    font-size: 1.2rem;
+}
