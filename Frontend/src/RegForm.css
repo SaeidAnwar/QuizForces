@@ -1,5 +1,5 @@
 .reg-form-cont {
-    margin-top: 200px;
+    margin-top: 100px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -14,6 +14,7 @@
     width: 100%;
     padding-bottom: 5px;
     text-align: center;
+    font-size: 1.5rem;
 }
 
 .reg-form {
@@ -30,6 +31,7 @@
     display: flex;
     width: 400px;
     margin: 0 20px 20px 20px;
+    align-items: center;
 }
 
 .reg-form .input-cont label {
@@ -40,6 +42,7 @@
     border: solid 1px gray;
     border-radius: 5px;
     width: 200px;
+    height: 22px;
     padding: 0px 5px 0px 5px;
 }
 
@@ -51,4 +54,26 @@
     border-radius: 8px;
     border-color: gray;
     font-size: 1.2rem;
+}
+
+.reg-form-cont br {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    .reg-form .input-cont {
+        width: 270px;
+    }
+
+    .reg-form .input-cont input {
+        width: 150px;
+    }
+
+    .reg-form .title {
+        font-size: 1.3rem;
+    }
+
+    .reg-form-cont br {
+        display: block;
+    }
 }

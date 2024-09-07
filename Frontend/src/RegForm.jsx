@@ -5,7 +5,7 @@ function RegForm() {
     return (
         <div className="reg-form-cont">
             <form method="POST" action="" className="reg-form">
-                <h2 className="title">Register for Quizzforces</h2>
+                <h2 className="title">Register for Quizforces</h2>
                 <div className="input-cont">
                     <label>Username</label>
                     <input type="text" />
@@ -22,7 +22,7 @@ function RegForm() {
                     <label>Confirm Password</label>
                     <input type="password" />
                 </div>
-                <input className="submit-button" type="submit" value="Regiter" />
+                <input className="submit-button" type="submit" value="Register" />
             </form>
         </div>
     );
