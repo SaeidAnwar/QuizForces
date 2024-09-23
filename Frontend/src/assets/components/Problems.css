@@ -1,0 +1,24 @@
+.problems-cont table {
+    width: 100%;
+}
+
+.problems-cont .sno {
+    width: 5%;
+}
+
+.problems-cont .name {
+    width: 75%;
+}
+
+.problems-cont .diff {
+    width: 10%;
+}
+
+.problems-cont .solved {
+    width: 10%;
+}
+
+.problems-cont td {
+    text-align: center;
+    white-space: nowrap;
+}

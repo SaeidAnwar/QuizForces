@@ -19,7 +19,7 @@ function NavBar() {
                     <a href="">Contests</a>
                 </li>
                 <li>
-                    <a href="">Problems</a>
+                    <a href="/problems">Problems</a>
                 </li>
             </ul>
         </div>

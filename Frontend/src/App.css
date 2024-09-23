@@ -1,0 +1,11 @@
+.main-cont {
+    margin-left: 7vw;
+    margin-right: 7vw;
+}
+
+@media screen and (max-width: 600px) {
+    .main-cont {
+        margin-left: 1vw;
+        margin-right: 1vw;
+    }
+}
