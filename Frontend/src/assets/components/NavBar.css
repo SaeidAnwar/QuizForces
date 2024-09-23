@@ -1,3 +1,7 @@
+.navbar-cont {
+    margin-bottom: 15px;
+}
+
 .navbar-cont .upper-cont {
     display: flex;
     flex-direction: row;
