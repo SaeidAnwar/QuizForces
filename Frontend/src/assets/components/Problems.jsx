@@ -2,91 +2,91 @@ import "./Problems.css";
 
 const testData = [
     {
-        sno: 1,
+        id: 1,
+        name: "first question first question first question",
+        difficulty: "easy",
+        solved: "no",
+    },
+    {
+        id: 1,
         name: "first question",
         difficulty: "easy",
         solved: "no",
     },
     {
-        sno: 1,
+        id: 1,
         name: "first question",
         difficulty: "easy",
         solved: "no",
     },
     {
-        sno: 1,
+        id: 1,
         name: "first question",
         difficulty: "easy",
         solved: "no",
     },
     {
-        sno: 1,
+        id: 1,
         name: "first question",
         difficulty: "easy",
         solved: "no",
     },
     {
-        sno: 1,
+        id: 1,
         name: "first question",
         difficulty: "easy",
         solved: "no",
     },
     {
-        sno: 1,
+        id: 1,
         name: "first question",
         difficulty: "easy",
         solved: "no",
     },
     {
-        sno: 1,
+        id: 1,
         name: "first question",
         difficulty: "easy",
         solved: "no",
     },
     {
-        sno: 1,
+        id: 1,
         name: "first question",
         difficulty: "easy",
         solved: "no",
     },
     {
-        sno: 1,
+        id: 1,
         name: "first question",
         difficulty: "easy",
         solved: "no",
     },
     {
-        sno: 1,
+        id: 1,
         name: "first question",
         difficulty: "easy",
         solved: "no",
     },
     {
-        sno: 1,
+        id: 1,
         name: "first question",
         difficulty: "easy",
         solved: "no",
     },
     {
-        sno: 1,
+        id: 1,
         name: "first question",
         difficulty: "easy",
         solved: "no",
     },
     {
-        sno: 1,
+        id: 1,
         name: "first question",
         difficulty: "easy",
         solved: "no",
     },
     {
-        sno: 1,
-        name: "first question",
-        difficulty: "easy",
-        solved: "no",
-    },
-    {
-        sno: 1,
+        id: 1,
         name: "first question",
         difficulty: "easy",
         solved: "no",
@@ -107,20 +107,20 @@ function Problems() {
                             <p>Name</p>
                         </td>
                         <td className="diff">
-                            <p>Difficulty</p>
+                            <p>Diff</p>
                         </td>
                         <td className="solved">
-                            <p>Solved</p>
+                            <p>Sol</p>
                         </td>
                     </tr>
-                    {testData.map((el) => {
+                    {testData.map((el, index) => {
                         return (
-                            <tr key={el.sno}>
+                            <tr key={el.id}>
                                 <td>
-                                    <p>{el.sno}</p>
+                                    <a href="/">{index+1}</a>
                                 </td>
                                 <td>
-                                    <p>{el.name}</p>
+                                    <a href="/">{el.name}</a>
                                 </td>
                                 <td>
                                     <p>{el.difficulty}</p>

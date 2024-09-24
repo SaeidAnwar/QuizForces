@@ -13,10 +13,10 @@ function NavBar() {
             </div>
             <ul className="navbar-list">
                 <li>
-                    <a href="">Home</a>
+                    <a href="/">Home</a>
                 </li>
                 <li>
-                    <a href="">Contests</a>
+                    <a href="/">Practice</a>
                 </li>
                 <li>
                     <a href="/problems">Problems</a>

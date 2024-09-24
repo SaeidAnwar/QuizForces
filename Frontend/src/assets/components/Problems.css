@@ -5,10 +5,12 @@
     justify-items: center;
     flex-direction: column;
     align-items: center;
+    padding-top: 5px;
+    width: 70%;
 }
 
 .problems-cont h3 {
-    margin: 4px;
+    margin: 0;
     padding-left: 6px;
     margin-right: auto;
     font-weight: 400;
@@ -16,15 +18,22 @@
 }
 
 .problems-cont table {
-    width: 99%;
+    width: 99.8%;
     margin: 3px;
 }
 
-p {
+p, a {
     font-size: large;
     margin-top: 10px;
     margin-bottom: 10px;
     font-weight: 400;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+a {
+    text-decoration-thickness: 1px;
+    text-underline-offset: 2px;
 }
 
 .header p {
@@ -32,16 +41,16 @@ p {
 }
 
 .problems-cont .sno {
-    width: 5%;
+    width: 7%;
     border-radius: 7px 0px 0px 0px;
 }
 
 .problems-cont .name {
-    width: 65%;
+    width: 70%;
 }
 
 .problems-cont .diff {
-    width: 15%;
+    width: 13%;
 }
 
 .problems-cont .solved {
@@ -51,7 +60,14 @@ p {
 
 .problems-cont td {
     text-align: center;
-    white-space: nowrap;
     margin: 1px;
+    text-overflow: ellipsis;
+    overflow: hidden;
     background-color: white;
+}
+
+@media screen and (max-width: 600px) {
+    .problems-cont {
+        width: 100%;
+    }
 }

@@ -76,4 +76,8 @@
     .reg-form-cont br {
         display: block;
     }
+
+    .reg-form-cont {
+        margin-top: 50px;
+    }
 }

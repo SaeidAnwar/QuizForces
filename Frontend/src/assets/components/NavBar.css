@@ -1,5 +1,5 @@
 .navbar-cont {
-    margin-bottom: 15px;
+    margin-bottom: 25px;
 }
 
 .navbar-cont .upper-cont {
@@ -63,5 +63,9 @@
     .navbar-list {
         margin-top: 10px;
         padding: 12px;
+    }
+
+    .navbar-cont {
+        margin-bottom: 15px;
     }
 }

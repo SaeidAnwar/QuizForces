@@ -10,6 +10,7 @@ import RegForm from "./assets/Components/RegForm";
 import LoginForm from "./assets/components/LoginForm";
 import NavBar from "./assets/components/NavBar";
 import Problems from "./assets/components/Problems";
+import Footer from "./assets/components/Footer";
 
 function App() {
     return (
@@ -22,6 +23,7 @@ function App() {
                     <Route path="/problems" element={<Problems/>} />
                 </Routes>
             </Router>
+            <Footer />
         </div>
     );
 }
