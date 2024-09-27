@@ -1,0 +1,13 @@
+.problem-page-cont {
+    display: flex;
+}
+
+.problem-page-cont .side-bar-cont {
+    width: 23%;
+}
+
+@media screen and (max-width: 800px) {
+    .problem-page-cont .side-bar-cont {
+        display: none;
+    }
+}

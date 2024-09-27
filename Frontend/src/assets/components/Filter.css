@@ -1,0 +1,47 @@
+.filter-cont {
+    border-style: solid;
+    border-color: gray;
+    border-width: 1px;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.filter-cont .inner-cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.filter-cont .inner-cont select {
+    width: 90%;
+    height: 20px;
+    box-sizing: border-box;
+}
+
+.inner-cont p {
+    margin-bottom: 3px;
+}
+ 
+.filter-cont h3 {
+    margin: 0;
+    box-sizing: border-box;
+    width: 100%;
+    border-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: gray;
+    padding: 5px;
+    margin-right: auto;
+}
+
+.filter-cont button {
+    margin-top: 20px;
+    width: 50px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    border-color: gray;
+}
