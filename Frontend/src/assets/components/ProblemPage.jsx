@@ -1,6 +1,7 @@
 import "./ProblemPage.css"
 import Problems from "./Problems";
 import Filter from "./Filter";
+import Settings from "./Settings";
 
 function ProblemPage() {
     return (
@@ -8,6 +9,8 @@ function ProblemPage() {
             <Problems/>
             <div className="side-bar-cont">
                 <Filter/>
+                <div className="space"></div>
+                <Settings/>
             </div>
         </div>
     )

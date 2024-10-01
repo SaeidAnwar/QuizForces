@@ -1,4 +1,4 @@
-.filter-cont {
+.settings-cont {
     border-style: solid;
     border-color: lightgray;
     border-width: 1px;
@@ -10,25 +10,25 @@
     width: 100%;
 }
 
-.filter-cont .inner-cont {
+.settings-cont .inner-cont {
+    width: 95%;
     display: flex;
-    flex-direction: column;
+    justify-items: center;
     align-items: center;
+}
+
+.settings-cont .inner-cont p, input {
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.settings-cont .inner-cont p {
     width: 100%;
+    font-size: 1rem;
+    font-weight: 100;
 }
 
-.filter-cont .inner-cont select {
-    width: 90%;
-    height: 20px;
-    box-sizing: border-box;
-    border-color: lightgray;
-}
-
-.inner-cont p {
-    margin-bottom: 3px;
-}
- 
-.filter-cont h3 {
+.settings-cont h3 {
     margin: 0;
     box-sizing: border-box;
     width: 100%;
@@ -37,12 +37,5 @@
     border-bottom-color: lightgray;
     padding: 5px;
     margin-right: auto;
-}
-
-.filter-cont button {
-    margin-top: 20px;
-    width: 50px;
-    margin-bottom: 15px;
-    border-radius: 4px;
-    border-color: lightgray;
+    margin-bottom: 10px;
 }

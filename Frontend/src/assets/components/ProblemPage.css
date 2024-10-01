@@ -6,6 +6,10 @@
     width: 23%;
 }
 
+.problem-page-cont .space {
+    height: 3vh;
+}
+
 @media screen and (max-width: 800px) {
     .problem-page-cont .side-bar-cont {
         display: none;
